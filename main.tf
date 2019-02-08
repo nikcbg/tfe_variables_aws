@@ -1,6 +1,5 @@
 variable "access_key" {}
 variable "secret_key" {}
-variable "key_name" {}
 variable "region" {}
 variable "ami" {}
 variable "instance_type" {}
@@ -14,7 +13,6 @@ provider "aws" {
 resource "aws_instance" "example" {
   ami = "${var.ami}"
   instance_type = "${var.instance_type}"
-  key_name = "${var.key_name}"
 }        
 
 output "public_dns" {
