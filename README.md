@@ -30,4 +30,4 @@
  - Next click on `Queueing a destroy Plan ` and you can watch how the infrastructure it's been destroyed.
  
  
-   
+ 
