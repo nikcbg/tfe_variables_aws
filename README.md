@@ -21,16 +21,13 @@
   - you can watch the apply command executing.
   - after it is done you can check your AWS console to see the EC2 instance created.
 
-### How to destroy/delete resources from TFE UI
-- To destroy/delete the EC2 instance you just created in AWS you need to:
+### How to destroy resources from TFE UI
+- To destroy the EC2 instance you just created in AWS, you need to do the followinf:
    - declare environment varible in your workspace that you linked to this repo.
-   - environment varibles are located under Terraform Avriables in the workspace.
+   - environment varibles are located under Terraform Variables in the workspace.
    - the name of the variable has to be `CONFIRM_DESTROY` and the value set to `1`.
- - Next go to `Settings` and choose `Destruction and Delition` on teh bottom.
+ - Next go to `Settings` and choose `Destruction and Delition` on the bottom of the drop-down menu.
  - Next click on `Queueing a destroy Plan ` and you can watch how the infrastructure it's been destroyed.
  
  
    
-
-
-
